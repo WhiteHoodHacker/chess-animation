@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.body {
+    background-color:#1A1A1A;
+    padding-top:95px;
+    padding-left:95px;
+    padding-bottom:1000px;
+    margin:0
+    height:100%;
+    width:100%;
+}
+
+.whiteSquare {
+    height:70px;
+    width:70px;
+    display:inline-block;
+    background-color:#F0DAB5;
+    margin-right:5px;
+}
+
+.blackSquare {
+    height:70px;
+    width:70px;
+    display:inline-block;
+    background-color:#B58763;
+    margin-right:5px;
+}
+
+img {
+    height:70px;
+    width:70px;
+    position:absolute;
+    top:100px;
+    left:100px;
+    animation-name:animation;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animation {
+    0% {
+        top:100px;
+        left:100px;
+    }
+    6.25% {
+        top:175px;
+        left:250px;
+    }
+    12.5% {
+        top:175px;
+        left:250px;
+    }
+    18.75% {
+        top:250px;
+        left:100px;
+    }
+    25% {
+        top:250px;
+        left:100px;
+    }
+    31.25% {
+        top:100px;
+        left:175px;
+    }
+    37.5% {
+        top:100px;
+        left:175px;
+    }
+    43.75% {
+        top:250px;
+        left:250px;
+    }
+    50% {
+        top:250px;
+        left:250px;
+    }
+    56.25% {
+        top:175px;
+        left:100px;
+    }
+    62.5% {
+        top:175px;
+        left:100px;
+    }
+    68.75% {
+        top:100px;
+        left:250px;
+    }
+    75% {
+        top:100px;
+        left:250px;
+    }
+    81.25% {
+        top:250px;
+        left:175px;
+    }
+    87.5% {
+        top:250px;
+        left:175px;
+    }
+    93.75% {
+        top:100px;
+        left:100px;
+    }
+    100% {
+        top:100px;
+        left:100px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="body">
+<div>
+<img src="knight.png">
+<div class="whiteSquare"></div><div class="blackSquare"></div><div class="whiteSquare"></div>
+</div>
+<div>
+<div class="blackSquare"></div><div class="whiteSquare"></div><div class="blackSquare"></div>
+</div>
+<div>
+<div class="whiteSquare"></div><div class="blackSquare"></div><div class="whiteSquare"></div>
+</div>
+</div>
+</body>
+</html>
